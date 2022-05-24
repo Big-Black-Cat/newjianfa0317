@@ -1,0 +1,15 @@
+{
+	"name": "testadfls",
+	"location": "chinanorth2",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "ac894a90-be7f-478e-8fd1-e4c9fe085081",
+		"tenantId": "b388b808-0ec9-4a09-a414-a7cbbd8b7e9b",
+		"userAssignedIdentities": {
+			"/subscriptions/fe545a67-a74c-414c-a2d2-81a8c917c51b/resourcegroups/abc/providers/Microsoft.ManagedIdentity/userAssignedIdentities/tag0119": {
+				"clientId": "46fa56c1-94d7-4dcb-800c-7a9d82bee8f4",
+				"principalId": "d569adb3-c591-47ef-b6c4-a42031187caa"
+			}
+		}
+	}
+}
