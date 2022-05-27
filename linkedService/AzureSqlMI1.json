@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureSqlMI",
 		"typeProperties": {
-			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqlmi02.public.f835c06ec559.database.chinacloudapi.cn,3342;initial catalog=drop;user id=admin123",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRDOUU4RDU4LTBFNDItNDc1OS1BM0Y0LTY0Q0VDNTM1RkZDNl84YWQ2MmNkYS01MWEyLTRjOGQtODI5Zi0zMjI5NGU3N2E5MTUiDQp9"
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqlmi02.public.f835c06ec559.database.chinacloudapi.cn,3342;initial catalog=db0301;user id=admin123",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRDOUU4RDU4LTBFNDItNDc1OS1BM0Y0LTY0Q0VDNTM1RkZDNl9iMTU5NmZkOC1hMDk2LTQ1OTktYjY3OS01ZGRkMGY4MmExZmQiDQp9"
 		}
 	}
 }
