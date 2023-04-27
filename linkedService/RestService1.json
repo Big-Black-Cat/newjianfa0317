@@ -1,0 +1,27 @@
+{
+	"name": "RestService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://chinaeast2.api.cognitive.azure.cn/sts/v1.0/issueToken",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous",
+			"authHeaders": {
+				"Ocp-Apim-Subscription-Key": {
+					"type": "SecureString",
+					"value": "**********"
+				},
+				"Content-type": {
+					"type": "SecureString",
+					"value": "**********"
+				},
+				"Content-Length": {
+					"type": "SecureString",
+					"value": "**********"
+				}
+			}
+		}
+	}
+}

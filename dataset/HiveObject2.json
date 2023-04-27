@@ -1,0 +1,13 @@
+{
+	"name": "HiveObject2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Hive0616",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "HiveObject",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

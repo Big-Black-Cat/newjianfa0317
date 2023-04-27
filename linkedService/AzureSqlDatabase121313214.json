@@ -1,0 +1,15 @@
+{
+	"name": "AzureSqlDatabase121313214",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=testsqlserver.database.chinacloudapi.cn;Initial Catalog=sqlserver123"
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeliushuovm",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

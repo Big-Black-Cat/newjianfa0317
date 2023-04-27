@@ -1,0 +1,25 @@
+{
+	"name": "trigger_3h",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "testuntil",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 30,
+				"startTime": "2022-11-02T01:35:00",
+				"endTime": "2022-11-07T00:13:00",
+				"timeZone": "China Standard Time"
+			}
+		}
+	}
+}

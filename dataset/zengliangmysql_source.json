@@ -1,0 +1,13 @@
+{
+	"name": "zengliangmysql_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySql_localhost",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

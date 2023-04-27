@@ -1,0 +1,16 @@
+{
+	"name": "AzureMySqlTable_ls",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMySql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`data_sink_table`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

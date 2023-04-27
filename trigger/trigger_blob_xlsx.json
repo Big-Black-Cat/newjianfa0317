@@ -1,0 +1,25 @@
+{
+	"name": "trigger_blob_xlsx",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "blob",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adf-test/blobs/teststart1",
+			"blobPathEndsWith": ".xlsx",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/fe545a67-a74c-414c-a2d2-81a8c917c51b/resourceGroups/abc/providers/Microsoft.Storage/storageAccounts/liushuo123",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "AzureSqlDatabase6",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/fe545a67-a74c-414c-a2d2-81a8c917c51b/resourceGroups/abc/providers/Microsoft.Sql/servers/testsqlserver",
+		"groupId": "sqlServer",
+		"fqdns": [
+			"testsqlserver.database.chinacloudapi.cn"
+		]
+	}
+}

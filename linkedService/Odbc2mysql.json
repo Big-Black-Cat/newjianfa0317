@@ -1,0 +1,21 @@
+{
+	"name": "Odbc2mysql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Odbc",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"authenticationType": "Basic",
+			"userName": "admin123@mysql0727ls",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiZTQ0YzdjZC0wOWE3LTQwNTEtOGY4ZC05ZjJjYTM1NjlmMTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeliushuovm",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

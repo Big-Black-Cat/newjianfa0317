@@ -1,0 +1,31 @@
+{
+	"name": "keyvalut",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://key-vault123.vault.azure.cn/keys/0202/fd95bb30247b4d6196ef2c380e58b796?api-version=7.0",
+					"method": "GET",
+					"authentication": {
+						"type": "MSI",
+						"resource": "https://vault.azure.cn"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-02-03T08:12:28Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
